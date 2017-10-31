@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : 4pinbuzzer.dra                                )
+(    Software Version : 16.5P002                                      )
+(    Date/Time        : Mon Feb 27 08:53:49 2012                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/SPB_16.5/share/pcb/pcb_lib/symbols
+    Name      = 4pinbuzzer.psm
+    User      = kchristensen
+    Machine   = KCHRISTENSEN-DT
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

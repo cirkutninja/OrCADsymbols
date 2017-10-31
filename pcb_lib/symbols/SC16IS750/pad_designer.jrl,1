@@ -1,0 +1,54 @@
+\t (00:00:00) pad_designer 16.6 P001 (v16-6-112A) Windows 32
+\t (00:00:00)     Journal start - Wed May 04 16:07:44 2016
+\t (00:00:00)         Host=DRDOOM User=kchristensen Pid=2772 CPUs=8
+\t (00:00:00) 
+\i (00:00:00) setwindow form.padedit
+\i (00:00:00) replay s_r80_30_m100_50_p80_30.psr 
+\i (00:00:00) version 16.3 
+\t (00:00:00) Script version: 16.3
+\i (00:00:00) setwindow form.padedit 
+\i (00:00:00) pse_new 
+\i (00:00:00) fillin s_r80_30_m100_50_p80_30 
+\i (00:00:00) FORM padedit units Millimeter 
+\i (00:00:00) FORM padedit units Millimeter 
+\i (00:00:04) fillin yes 
+\w (00:00:04) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:04) FORM padedit decimal_places 4 
+\i (00:00:04) FORM padedit inner_layer_opt YES 
+\e (00:00:04) Form field label not found
+\i (00:00:04) FORM padedit single YES 
+\e (00:00:04) Field is currently invisible or disabled.
+\i (00:00:04) setwindow Form.padedit 
+\i (00:00:04) FORM padedit layers 
+\i (00:00:04) FORM padedit layers  
+\i (00:00:04) FORM padedit grid row begin_layer 
+\i (00:00:04) FORM padedit grid row begin_layer 
+\i (00:00:04) FORM padedit geometry Rectangle 
+\i (00:00:04) FORM padedit geometry Rectangle 
+\i (00:00:04) FORM padedit width 0.8 
+\i (00:00:04) FORM padedit width 0.8 
+\i (00:00:04) FORM padedit height 0.3 
+\i (00:00:04) FORM padedit height 0.3 
+\i (00:00:04) FORM padedit grid row SOLDERMASK_TOP 
+\i (00:00:04) FORM padedit grid row soldermask_top 
+\i (00:00:04) FORM padedit geometry Rectangle 
+\i (00:00:04) FORM padedit geometry Rectangle 
+\i (00:00:04) FORM padedit width 1.0 
+\i (00:00:04) FORM padedit width 1.0 
+\i (00:00:04) FORM padedit height 0.5 
+\i (00:00:04) FORM padedit height 0.5 
+\i (00:00:04) FORM padedit grid row PASTEMASK_TOP 
+\i (00:00:04) FORM padedit grid row pastemask_top 
+\i (00:00:04) FORM padedit geometry Rectangle 
+\i (00:00:04) FORM padedit geometry Rectangle 
+\i (00:00:04) FORM padedit width 0.8 
+\i (00:00:04) FORM padedit width 0.8 
+\i (00:00:04) FORM padedit height 0.3 
+\i (00:00:04) FORM padedit height 0.3 
+\i (00:00:04) pse_check 
+\i (00:00:04) pse_save 
+\i (00:00:05) fillin yes 
+\i (00:00:10) pse_save 
+\i (00:00:11) fillin yes 
+\i (00:00:12) pse_exit
+\t (00:00:12)     Journal end - Wed May 04 16:07:56 2016

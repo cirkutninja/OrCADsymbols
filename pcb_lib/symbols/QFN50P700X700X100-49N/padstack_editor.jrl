@@ -1,0 +1,10 @@
+\t (00:00:00) padstack_editor 17.2 P019 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Wed Aug 09 10:16:05 2017
+\t (00:00:00)         Host=DESKTOP-KNF4LPN User=Kevin Pid=16032 CPUs=4
+\t (00:00:00) CmdLine= padstack_editor -mpssession Kevin -file C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols/QFN50P700X700X100-49N/s_r30_81_m50_101_p30_81.pad -tempout C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols/QFN50P700X700X100-49N/#Taaaaab17204.tmp -p C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols/QFN50P700X700X100-49N
+\t (00:00:00) 
+\d (00:05:45) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:05:49) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 Pad
+\d (00:05:49) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 Pad "Rectangle 0.3048x0.8128" +
+\d (00:05:49) QtSignal 2 1
+\t (00:05:57)     Journal end - Wed Aug 09 10:22:03 2017

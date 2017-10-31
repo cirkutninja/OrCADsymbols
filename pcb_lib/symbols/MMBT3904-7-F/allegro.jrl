@@ -1,0 +1,67 @@
+\t (00:00:00) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:00)     Journal start - Wed May 18 15:01:57 2016
+\t (00:00:00)         Host=DRDOOM User=kchristensen Pid=4456 CPUs=8
+\t (00:00:00) 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Database opened: C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols/MMBT3904-7-F/SOT103P240X110-3N.dra
+\i (00:00:02) trapsize 27966
+\i (00:00:02) trapsize 26853
+\i (00:00:02) trapsize 28075
+\i (00:00:02) trapsize 26887
+\i (00:00:02) trapsize 27399
+\i (00:00:02) trapsize 30799
+\i (00:00:03) generaledit 
+\i (00:00:08) open 
+\i (00:00:10) fillin "SOT103P240X110-3N.dra"
+\t (00:00:10) Opening existing design...
+\i (00:00:10) trapsize 30799
+\d (00:00:10) Database opened: C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols/MMBT3904-7-F/SOT103P240X110-3N.dra
+\i (00:00:10) generaledit 
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 429.1840 206.2003
+\i (00:00:11) trapsize 15399
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out 170.1294 195.7287
+\i (00:00:12) trapsize 30799
+\i (00:00:13) zoom in 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom in -0.1521 1.6959
+\i (00:00:13) trapsize 15399
+\i (00:00:13) zoom in 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom in -0.4600 1.3879
+\i (00:00:13) trapsize 7700
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in -0.4600 1.3880
+\i (00:00:14) trapsize 3850
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in -0.4600 1.3880
+\i (00:00:14) trapsize 1925
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in -0.4600 1.3880
+\i (00:00:14) trapsize 962
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in -0.4601 1.3880
+\i (00:00:14) trapsize 481
+\i (00:00:15) zoom out 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom out 2.4081 2.5719
+\i (00:00:15) trapsize 962
+\i (00:00:17) roam y 96 
+\i (00:00:17) roam y 96
+\i (00:00:17) roam y 96 
+\i (00:00:17) roam y 96 
+\i (00:00:17) roam y 96 
+\i (00:00:21) save_as 
+\i (00:00:50) fillin "C:\Cadence\SPB_16.6\share\pcb\pcb_lib\symbols\SOT103P240X110-3N.dra"
+\i (00:00:50) cd "C:\Cadence\SPB_16.6\share\pcb\pcb_lib\symbols"
+\t (00:00:51) Symbol 'sot103p240x110-3n.psm' created.
+\i (00:00:51) generaledit 
+\i (00:01:07) exit 
+\t (00:01:07)     Journal end - Wed May 18 15:03:04 2016

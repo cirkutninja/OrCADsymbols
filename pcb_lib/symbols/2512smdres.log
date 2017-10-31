@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : 2512smdres.dra                                )
+(    Software Version : 16.5P002                                      )
+(    Date/Time        : Mon Jun 04 13:47:38 2012                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/SPB_16.5/share/pcb/pcb_lib/symbols
+    Name      = 2512smdres.psm
+    User      = kchristensen
+    Machine   = KCHRISTENSEN-DT
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

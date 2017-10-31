@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : 1mmJST_SMT_2pos.dra                           )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Tue Jan 10 10:45:51 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols
+    Name      = 1mmjst_smt_2pos.psm
+    User      = kchristensen
+    Machine   = DRDOOM
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : 2mmheader_7.dra                               )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Fri Aug 25 12:28:23 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols
+    Name      = 2mmheader_7.psm
+    User      = Kevin
+    Machine   = DESKTOP-KNF4LPN
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

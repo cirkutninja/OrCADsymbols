@@ -1,0 +1,20 @@
+\t (00:00:00) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:00)     Journal start - Tue Jan 10 17:25:01 2017
+\t (00:00:00)         Host=DRDOOM User=kchristensen Pid=8356 CPUs=8
+\t (00:00:00) 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Database opened: C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols/QFN65P800X800X100-45N/QFN65P800X800X100-45N.dra
+\i (00:00:02) trapsize 5622
+\i (00:00:02) trapsize 5399
+\i (00:00:02) trapsize 5644
+\i (00:00:02) trapsize 5405
+\i (00:00:02) trapsize 5508
+\i (00:00:02) trapsize 6192
+\i (00:00:02) generaledit 
+\i (00:00:06) opencd 'W:/HARDWAREENGINEERING/2.4 TRANSMITTERS/INMATETAG/INMATETAG-LAYOUT/PCBLAYOUT/inmateUpgraded.brd' 
+\t (00:00:06) Opening existing design...
+\i (00:00:07) trapsize 451
+\i (00:00:07) trapsize 441
+\i (00:00:07) trapsize 451
+\i (00:00:07) trapsize 451
+\t (00:00:07)     Journal end - Tue Jan 10 17:25:08 2017

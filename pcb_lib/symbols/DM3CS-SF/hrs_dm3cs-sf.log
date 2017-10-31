@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : HRS_DM3CS-SF.dra                              )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Thu Nov 03 16:01:54 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols/DM3CS-SF
+    Name      = hrs_dm3cs-sf.psm
+    User      = kchristensen
+    Machine   = DRDOOM
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

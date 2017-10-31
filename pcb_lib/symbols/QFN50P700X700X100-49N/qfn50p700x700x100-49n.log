@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : QFN50P700X700X100-49N.dra                     )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Fri Mar 24 14:01:26 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols/QFN50P700X700X100-49N
+    Name      = qfn50p700x700x100-49n.psm
+    User      = Drone
+    Machine   = DRONE-HP
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

@@ -1,0 +1,28 @@
+\t (00:00:00) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Wed Aug 09 10:22:43 2017
+\t (00:00:00)         Host=DESKTOP-KNF4LPN User=Kevin Pid=16064 CPUs=4
+\t (00:00:00) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Design opened: C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols/QFN50P700X700X100-49N/vqfn48.dra
+\i (00:00:02) trapsize 4
+\i (00:00:02) trapsize 4
+\i (00:00:02) trapsize 5
+\i (00:00:03) generaledit 
+\i (00:00:11) opencd C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols/QFN50P700X700X100-49N/vqfn48.dra 
+\e (00:00:11) Do you want to save the changes you made to vqfn48.dra?
+\i (00:00:18) fillin menu_cancel 
+\i (00:00:18) generaledit 
+\i (00:00:19) zoom in 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom in 700 222
+\i (00:00:19) trapsize 2
+\i (00:00:19) zoom in 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom in 385 238
+\i (00:00:19) trapsize 1
+\i (00:00:45) exit 
+\e (00:00:45) Do you want to save the changes you made to vqfn48.dra?
+\i (00:00:47) fillin no 
+\t (00:00:47)     Journal end - Wed Aug 09 10:23:30 2017

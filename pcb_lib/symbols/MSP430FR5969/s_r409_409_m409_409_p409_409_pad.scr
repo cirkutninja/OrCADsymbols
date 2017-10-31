@@ -1,0 +1,76 @@
+# Pad Editor script
+#   name: s_r409_409_m409_409_p409_409_pad.scr
+#   copyright: This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#   version 17.2
+
+#-------------------------------------------------------------------------------
+# Launch new Padstack File
+#-------------------------------------------------------------------------------
+QtSignal MainWindow New triggered
+QtSignal fileNewDialog dirPath editingFinished "s_r409_409_m409_409_p409_409"
+QtSignal fileNewDialog dataCombo activated "SMD Pin"
+QtSignal fileNewDialog OK clicked
+
+#-------------------------------------------------------------------------------
+# General Settings
+#-------------------------------------------------------------------------------
+QtSignal MainWindow Units CurrentIndexChanged Millimeter
+QtSignal MainWindow Units activated Millimeter
+QtSignal MainWindow DecimalPlaces CurrentIndexChanged 4
+QtSignal MainWindow DecimalPlaces activated 4
+
+#-------------------------------------------------------------------------------
+# Start Tab Settings
+#-------------------------------------------------------------------------------
+QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+# Select padstack usage
+QtSignal GuidedTabsParent PadstackTypes itemClicked "SMD Pin"
+QtSignal GuidedTabsParent PadstackTypes currentRowChanged 1
+QtSignal GuidedTabsParent PadstackTypes itemSelectionChanged "SMD Pin"
+QtSignal GuidedTabsParent PadstackTypes itemClicked "SMD Pin"
+# Select pad geometry
+QtSignal GuidedTabsParent NewPads currentRowChanged 3
+QtSignal GuidedTabsParent NewPads itemSelectionChanged Rectangle
+QtSignal GuidedTabsParent NewPads itemClicked Rectangle
+
+#-------------------------------------------------------------------------------
+# Design Layers Tab Settings
+#-------------------------------------------------------------------------------
+QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+# BEGIN LAYER
+QtSignal GuidedDesignLayersTab LayersTable itemChanged 0 "Layer Name" begin_layer
+QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Layer Name"
+QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Layer Name" 0 1
+# BEGIN LAYER : Regular Pad
+QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Regular Pad"
+QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" 0 2
+QtSignal GuidedDesignLayersTab PadShape CurrentIndexChanged Rectangle
+QtSignal GuidedDesignLayersTab PadShape activated Rectangle
+QtSignal GuidedDesignLayersTab PadWidth editingFinished  4.1
+QtSignal GuidedDesignLayersTab PadHeight editingFinished 4.1
+
+#-------------------------------------------------------------------------------
+# Mask Layers Tab Settings
+#-------------------------------------------------------------------------------
+QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+# SOLDERMASK_TOP : Pad
+QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 0 Pad
+QtSignal GuidedMaskLayersTab LayersTable cellClicked 0 Pad None 0 1
+QtSignal GuidedMaskLayersTab PadShape CurrentIndexChanged Rectangle
+QtSignal GuidedMaskLayersTab PadShape activated Rectangle
+QtSignal GuidedMaskLayersTab PadWidth editingFinished 4.1
+QtSignal GuidedMaskLayersTab PadHeight editingFinished 4.1
+# PASTEMASK_TOP : Pad
+QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 Pad
+QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 Pad None 2 1
+QtSignal GuidedMaskLayersTab PadShape CurrentIndexChanged Rectangle
+QtSignal GuidedMaskLayersTab PadShape activated Rectangle
+QtSignal GuidedMaskLayersTab PadWidth editingFinished 4.1
+QtSignal GuidedMaskLayersTab PadHeight editingFinished 4.1
+
+#-------------------------------------------------------------------------------
+# Check, Save, and Exit Commands
+#-------------------------------------------------------------------------------
+QtSignal MainWindow Check triggered
+QtSignal MainWindow Save triggered
+QtSignal MainWindow Exit triggered

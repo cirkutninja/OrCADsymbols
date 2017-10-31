@@ -1,0 +1,324 @@
+\t (00:00:29) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:29)     Journal start - Fri Aug 25 12:26:32 2017
+\t (00:00:29)         Host=DESKTOP-KNF4LPN User=Kevin Pid=9680 CPUs=4
+\t (00:00:29) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:29) 
+\d (00:00:29) Design opened: C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols/2mmheader_7.dra
+\i (00:00:29) generaledit 
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out 241.96 39.32
+\i (00:00:30) trapsize 481
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 241.96 39.33
+\i (00:00:31) trapsize 241
+\i (00:00:33) open 
+\i (00:00:38) fillin "2mmheader_10.dra"
+\t (00:00:38) Opening existing design...
+\t (00:00:38) Grids are drawn 3.2000, 3.2000 apart for enhanced viewability.
+\i (00:00:38) trapsize 668
+\i (00:00:38) trapsize 684
+\i (00:00:38) trapsize 722
+\d (00:00:38) Design opened: C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols/2mmheader_10.dra
+\i (00:00:38) generaledit 
+\i (00:00:39) zoom out 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom out 6.4479 -0.4299
+\t (00:00:39) Grids are drawn 0.2000, 0.2000 apart for enhanced viewability.
+\i (00:00:39) trapsize 1444
+\i (00:00:39) zoom in 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in 6.4478 -0.4300
+\i (00:00:39) trapsize 722
+\i (00:00:40) pick grid 7.7477 0.0033
+\t (00:00:40) last pick:  7.7000 0.0000
+\i (00:00:42) pick grid 10.4195 0.1766
+\t (00:00:42) last pick:  10.4000 0.2000
+\i (00:00:43) delete 
+\i (00:00:43) generaledit 
+\i (00:00:44) pick grid 11.7915 -0.0256
+\t (00:00:44) last pick:  11.8000 0.0000
+\i (00:00:44) delete 
+\i (00:00:44) generaledit 
+\i (00:00:45) pick grid 13.6691 0.1622
+\t (00:00:45) last pick:  13.7000 0.2000
+\i (00:00:45) delete 
+\i (00:00:45) generaledit 
+\i (00:00:47) roam x 96 
+\i (00:00:47) roam x 96
+\i (00:00:47) roam x 96 
+\i (00:00:47) roam x 96
+\i (00:00:48) zoom in 1 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom in 6.8769 0.2777
+\i (00:00:48) trapsize 361
+\i (00:00:50) add line 
+\i (00:00:52) pick grid 6.7975 0.8626
+\t (00:00:52) last pick:  6.8000 0.9000
+\i (00:00:57) prepopup 9.3899 0.8193
+\i (00:00:58) oops 
+\i (00:01:02) setwindow form.mini
+\i (00:01:02) FORM mini class MANUFACTURING 
+\i (00:01:05) FORM mini class BOARD GEOMETRY 
+\i (00:01:08) FORM mini class PACKAGE GEOMETRY 
+\i (00:01:10) FORM mini subclass ASSEMBLY_TOP 
+\i (00:01:12) setwindow pcb
+\i (00:01:12) pick grid 6.8841 0.8626
+\t (00:01:12) last pick:  6.9000 0.9000
+\t (00:01:12) last pick:  6.8580 0.8890
+\i (00:01:16) pick grid 8.9566 0.8771
+\t (00:01:16) last pick:  9.0000 0.9000
+\i (00:01:17) pick grid 9.0216 -0.9499
+\t (00:01:17) last pick:  9.0000 -0.9000
+\i (00:01:19) pick grid 6.7469 -0.9210
+\t (00:01:19) last pick:  6.7000 -0.9000
+\t (00:01:19) last pick:  6.8580 -0.8890
+\t (00:01:19) Merged with existing line. Start next line.
+\i (00:01:19) prepopup 6.7397 -0.9282
+\i (00:01:20) done 
+\i (00:01:20) generaledit 
+\i (00:01:22) pick grid 9.8448 0.8915
+\t (00:01:22) last pick:  9.8000 0.9000
+\i (00:01:23) delete 
+\i (00:01:23) generaledit 
+\i (00:01:24) pick grid 9.9820 -0.8921
+\t (00:01:24) last pick:  10.0000 -0.9000
+\i (00:01:24) delete 
+\i (00:01:24) generaledit 
+\i (00:01:26) pick grid 10.2420 0.8410
+\t (00:01:26) last pick:  10.2000 0.8000
+\i (00:01:28) zoom out 1 
+\i (00:01:28) setwindow pcb
+\i (00:01:28) zoom out 10.2420 0.8410
+\i (00:01:28) trapsize 722
+\i (00:01:30) add line 
+\i (00:01:33) setwindow form.mini
+\i (00:01:33) FORM mini subclass SILKSCREEN_TOP 
+\i (00:01:34) setwindow pcb
+\i (00:01:34) zoom in 1 
+\i (00:01:34) setwindow pcb
+\i (00:01:34) zoom in 11.3396 0.6532
+\i (00:01:34) trapsize 361
+\i (00:01:35) pick grid 9.0505 0.8987
+\t (00:01:35) last pick:  9.1000 0.9000
+\i (00:01:35) prepopup 9.3176 0.8193
+\i (00:01:36) oops 
+\i (00:01:37) pick grid 8.8627 0.8987
+\t (00:01:37) last pick:  8.9000 0.9000
+\i (00:01:38) pick grid 9.0360 0.8626
+\t (00:01:38) last pick:  9.0000 0.9000
+\i (00:01:40) pick grid 9.0432 -0.9138
+\t (00:01:40) last pick:  9.0000 -0.9000
+\i (00:01:41) prepopup 9.6065 -0.0906
+\i (00:01:42) done 
+\i (00:01:42) generaledit 
+\i (00:01:43) pick grid 10.0470 0.9132
+\t (00:01:43) last pick:  10.0000 0.9000
+\i (00:01:44) delete 
+\i (00:01:44) generaledit 
+\i (00:01:45) pick grid 10.1553 -0.8560
+\t (00:01:45) last pick:  10.2000 -0.9000
+\i (00:01:45) delete 
+\i (00:01:45) generaledit 
+\i (00:01:48) add rect 
+\i (00:01:48) roam x -96 
+\i (00:01:49) roam x -96
+\i (00:01:49) roam x -96 
+\i (00:01:49) roam x -96
+\i (00:01:51) add line 
+\i (00:01:52) pick grid 8.8267 0.9348
+\t (00:01:52) last pick:  8.8000 0.9000
+\t (00:01:52) last pick:  8.9000 0.9000
+\i (00:01:53) roam x -96 
+\i (00:01:53) roam x -96
+\i (00:01:53) roam x -96 
+\i (00:01:53) roam x -96
+\i (00:01:53) roam x -96 
+\i (00:01:53) roam x -96
+\i (00:01:53) roam x -96 
+\i (00:01:53) roam x -96
+\i (00:01:54) roam x -96 
+\i (00:01:54) roam x -96
+\i (00:01:54) roam x -96 
+\i (00:01:54) roam x -96
+\i (00:01:54) roam x -96 
+\i (00:01:54) roam x -96
+\i (00:01:54) roam x -96 
+\i (00:01:54) roam x -96
+\i (00:01:54) roam x -96 
+\i (00:01:54) roam x -96
+\i (00:01:54) roam x -96 
+\i (00:01:54) roam x -96
+\i (00:01:54) roam x -96 
+\i (00:01:54) roam x -96
+\i (00:01:56) pick grid -4.8936 0.8554
+\t (00:01:56) last pick:  -4.9000 0.9000
+\t (00:01:56) last pick:  -4.9022 0.8890
+\t (00:01:56) Merged with existing line. Start next line.
+\i (00:01:57) roam y 96 
+\i (00:01:57) roam y 96
+\i (00:01:57) roam x 96 
+\i (00:01:57) roam x 96
+\i (00:01:57) roam x 96 
+\i (00:01:57) roam x 96
+\i (00:01:58) roam x 96 
+\i (00:01:58) roam x 96
+\i (00:01:58) roam x 96 
+\i (00:01:58) roam x 96
+\i (00:01:58) roam x 96 
+\i (00:01:58) roam x 96
+\i (00:01:58) roam x 96 
+\i (00:01:58) roam x 96
+\i (00:01:58) roam x 96 
+\i (00:01:58) roam x 96
+\i (00:01:58) roam x 96 
+\i (00:01:58) roam x 96
+\i (00:01:58) roam x 96 
+\i (00:01:58) roam x 96
+\i (00:01:59) pick grid 6.7903 -0.9185
+\t (00:01:59) last pick:  6.8000 -0.9000
+\t (00:01:59) last pick:  6.8580 -0.8890
+\i (00:02:01) pick grid 8.9566 -0.8824
+\t (00:02:01) last pick:  9.0000 -0.9000
+\t (00:02:01) Merged with existing line. Start next line.
+\i (00:02:01) prepopup 9.0000 -0.8751
+\i (00:02:02) done 
+\i (00:02:02) generaledit 
+\i (00:02:02) zoom out 1 
+\i (00:02:02) setwindow pcb
+\i (00:02:02) zoom out 8.5306 -0.4852
+\i (00:02:02) trapsize 722
+\i (00:02:02) zoom out 1 
+\i (00:02:02) setwindow pcb
+\i (00:02:02) zoom out 8.5306 -0.4852
+\i (00:02:02) trapsize 1444
+\i (00:02:02) roam x 96 
+\i (00:02:02) roam x 96
+\i (00:02:03) roam x 96 
+\i (00:02:03) roam x 96
+\i (00:02:03) roam x 96 
+\i (00:02:03) roam x 96
+\i (00:02:04) pick grid 15.3546 0.2369
+\t (00:02:04) last pick:  15.4000 0.2000
+\i (00:02:05) delete 
+\i (00:02:05) generaledit 
+\i (00:02:05) zoom in 1 
+\i (00:02:05) setwindow pcb
+\i (00:02:05) zoom in 15.3835 0.2947
+\i (00:02:05) trapsize 722
+\i (00:02:06) pick grid 15.2824 0.2803
+\t (00:02:06) last pick:  15.3000 0.3000
+\i (00:02:06) delete 
+\i (00:02:07) generaledit 
+\i (00:02:07) pick grid 15.1380 0.7569
+\t (00:02:07) last pick:  15.1000 0.8000
+\i (00:02:07) delete 
+\i (00:02:07) generaledit 
+\i (00:02:09) pick grid 15.2391 0.9013
+\t (00:02:09) last pick:  15.2000 0.9000
+\i (00:02:10) delete 
+\i (00:02:10) generaledit 
+\i (00:02:12) save_as 
+\i (00:02:17) fillin "2mmheader_7.dra"
+\t (00:02:20) Symbol '2mmheader_7.psm' created.
+\i (00:02:20) generaledit 
+\i (00:02:20) pick grid 10.9497 -0.3263
+\t (00:02:20) last pick:  10.9000 -0.3000
+\i (00:02:21) delete 
+\i (00:02:21) generaledit 
+\i (00:02:22) pick grid 11.1663 -0.7018
+\t (00:02:22) last pick:  11.2000 -0.7000
+\i (00:02:22) delete 
+\i (00:02:22) generaledit 
+\i (00:02:23) roam x -96 
+\i (00:02:23) roam x -96
+\i (00:02:24) roam x -96 
+\i (00:02:24) roam x -96
+\i (00:02:24) roam x -96 
+\i (00:02:24) roam x -96
+\i (00:02:24) roam x -96 
+\i (00:02:24) roam x -96
+\i (00:02:25) add rect 
+\i (00:02:32) setwindow form.mini
+\i (00:02:32) FORM mini subclass PLACE_BOUND_TOP 
+\i (00:02:32) setwindow pcb
+\i (00:02:32) zoom in 1 
+\i (00:02:32) setwindow pcb
+\i (00:02:32) zoom in -1.5719 -0.6007
+\i (00:02:32) trapsize 361
+\i (00:02:33) roam x -96 
+\i (00:02:33) roam x -96
+\i (00:02:33) roam x -96 
+\i (00:02:33) roam x -96
+\i (00:02:35) pick grid -4.6915 0.7064
+\t (00:02:35) last pick:  -4.7000 0.7000
+\i (00:02:36) roam x 96 
+\i (00:02:36) roam x 96
+\i (00:02:36) roam x 96 
+\i (00:02:36) roam x 96
+\i (00:02:36) roam x 96 
+\i (00:02:36) roam x 96
+\i (00:02:36) roam x 96 
+\i (00:02:36) roam x 96
+\i (00:02:36) roam x 96 
+\i (00:02:36) roam x 96
+\i (00:02:37) roam x 96 
+\i (00:02:37) roam x 96
+\i (00:02:37) roam x 96 
+\i (00:02:37) roam x 96
+\i (00:02:37) roam x 96 
+\i (00:02:37) roam x 96
+\i (00:02:39) pick grid 8.7256 -0.6512
+\t (00:02:39) last pick:  8.7000 -0.7000
+\i (00:02:40) add rect 
+\i (00:02:44) setwindow form.mini
+\i (00:02:44) FORM mini subclass PLACE_BOUND_BOTTOM 
+\i (00:02:45) setwindow pcb
+\i (00:02:45) roam x -96 
+\i (00:02:45) roam x -96
+\i (00:02:45) roam x -96 
+\i (00:02:45) roam x -96
+\i (00:02:45) roam x -96 
+\i (00:02:45) roam x -96
+\i (00:02:45) roam x -96 
+\i (00:02:45) roam x -96
+\i (00:02:45) roam x -96 
+\i (00:02:45) roam x -96
+\i (00:02:46) roam x -96 
+\i (00:02:46) roam x -96
+\i (00:02:46) roam x -96 
+\i (00:02:46) roam x -96
+\i (00:02:46) roam x -96 
+\i (00:02:46) roam x -96
+\i (00:02:49) pick grid -4.7059 0.7064
+\t (00:02:49) last pick:  -4.7000 0.7000
+\i (00:02:49) roam x 96 
+\i (00:02:49) roam x 96
+\i (00:02:50) roam x 96 
+\i (00:02:50) roam x 96
+\i (00:02:50) roam x 96 
+\i (00:02:50) roam x 96
+\i (00:02:50) roam x 96 
+\i (00:02:50) roam x 96
+\i (00:02:50) roam x 96 
+\i (00:02:50) roam x 96
+\i (00:02:50) roam x 96 
+\i (00:02:50) roam x 96
+\i (00:02:50) roam x 96 
+\i (00:02:50) roam x 96
+\i (00:02:51) roam x 96 
+\i (00:02:51) roam x 96
+\i (00:02:51) roam x 96 
+\i (00:02:51) roam x 96
+\i (00:02:52) pick grid 8.6894 -0.6512
+\t (00:02:52) last pick:  8.7000 -0.7000
+\i (00:02:52) prepopup 8.6894 -0.6584
+\i (00:02:53) done 
+\i (00:02:53) generaledit 
+\i (00:02:55) save 
+\i (00:02:56) fillin yes 
+\t (00:02:56) Symbol '2mmheader_7.psm' created.
+\i (00:02:56) generaledit 
+\i (00:02:58) exit 
+\t (00:02:58)     Journal end - Fri Aug 25 12:29:01 2017

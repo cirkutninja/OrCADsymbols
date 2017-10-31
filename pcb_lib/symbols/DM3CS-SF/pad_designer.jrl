@@ -1,0 +1,31 @@
+\t (00:00:00) pad_designer 16.6 P001 (v16-6-112A) Windows 32
+\t (00:00:00)     Journal start - Tue Jan 10 10:26:16 2017
+\t (00:00:00)         Host=DRDOOM User=kchristensen Pid=208 CPUs=8
+\t (00:00:00) 
+\i (00:00:02) setwindow form.padedit
+\i (00:00:02) FORM padedit units Millimeter 
+\i (00:00:04) fillin yes 
+\w (00:00:04) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:09) FORM padedit layers  
+\i (00:00:10) FORM padedit single YES 
+\i (00:00:14) FORM padedit geometry Rectangle 
+\i (00:00:23) FORM padedit width 2.4 
+\i (00:00:33) FORM padedit height 0.7 
+\i (00:00:40) FORM padedit grid row soldermask_top 
+\i (00:00:43) FORM padedit geometry Rectangle 
+\i (00:00:54) FORM padedit width 2.7 
+\i (00:01:05) FORM padedit height 1 
+\i (00:01:07) FORM padedit grid row pastemask_top 
+\i (00:01:10) FORM padedit geometry Rectangle 
+\i (00:01:33) FORM padedit width 2.2 
+\i (00:01:35) FORM padedit height 0.5 
+\i (00:01:37) FORM padedit parameters  
+\i (00:01:38) FORM padedit layers  
+\i (00:01:44) FORM padedit parameters  
+\i (00:01:45) FORM padedit layers  
+\i (00:01:52) pse_save_as 
+\i (00:02:26) fillin "C:\Cadence\SPB_16.6\share\pcb\pcb_lib\symbols\Conn2_4x0_7smd.pad"
+\i (00:02:30) pse_new 
+\i (00:02:31) fillin "menu_cancel"
+\i (00:17:43) pse_exit
+\t (00:17:43)     Journal end - Tue Jan 10 10:43:59 2017

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : 28ssop.dra                                    )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Tue Jun 09 12:01:21 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = W:/HardwareEngineering/CRICKET Programing Jig - Bare Board Single/PCB-OrCAD
+    Name      = 28ssop.psm
+    User      = kchristensen
+    Machine   = DRDOOM
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

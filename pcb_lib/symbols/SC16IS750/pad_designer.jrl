@@ -1,0 +1,10 @@
+\t (00:00:00) pad_designer 16.6 P001 (v16-6-112A) Windows 32
+\t (00:00:00)     Journal start - Wed May 04 16:10:56 2016
+\t (00:00:00)         Host=DRDOOM User=kchristensen Pid=1088 CPUs=8
+\t (00:00:00) 
+\i (00:00:07) setwindow form.padedit
+\i (00:00:07) pse_open C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols/SC16IS750/s_r80_30_m100_50_p80_30.pad 
+\i (00:00:10) pse_save_as 
+\i (00:00:14) fillin "C:\Cadence\SPB_16.6\share\pcb\pcb_lib\symbols\s_r80_30_m100_50_p80_30.pad"
+\i (00:00:17) pse_exit
+\t (00:00:17)     Journal end - Wed May 04 16:11:14 2016

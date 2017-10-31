@@ -1,0 +1,867 @@
+# Allegro script
+#   name: MSP430FR5969_pkg.scr
+#   copyright: This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+version 17.2
+
+setwindow pcb
+
+new
+newdrawfillin "MSP430FR5969.dra" "Package Symbol"
+
+# UI Element Settings
+# setwindow Form.vf_vis
+# FORM vf_vis 1 all_colorvisible YES
+# FORM vf_vis 2 all_colorvisible YES
+setwindow pcb
+
+Color
+setwindow Form.cvf_main
+FORM cvf_main class_list Components
+FORM cvf_main all_visible1 YES
+FORM cvf_main all_visible2 YES
+FORM cvf_main all_visible3 YES
+FORM cvf_main class_list Geometry
+FORM cvf_main all_visible5 YES
+FORM cvf_main package_geometry/pin_number/visible NO
+FORM cvf_main class_list Stack-Up
+FORM cvf_main all_visible1 YES
+FORM cvf_main ok
+
+# Drawing Parameters
+generaledit
+prmed
+setwindow Form.prmedit
+FORM prmedit design
+FORM prmedit units Millimeter
+FORM prmedit accuracy 4
+FORM prmedit size other
+FORM prmedit width 75.2
+FORM prmedit height 72.4
+FORM prmedit Apply
+FORM prmedit x -29.45
+FORM prmedit y -28.4
+FORM prmedit done
+setwindow pcb
+chg origin
+pick   0   0 
+
+# Pins
+add pin
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 1
+FORM mini pintype_mechanical NO
+setwindow pcb
+pick -3.545 2.75
+setwindow Form.mini
+FORM mini next_pin_number 10
+setwindow pcb
+pick -3.545 -1.75
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 10B
+setwindow pcb
+pick -3.19 -1.75
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 11
+setwindow pcb
+pick -3.545 -2.25
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 11B
+setwindow pcb
+pick -3.19 -2.25
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 12
+setwindow pcb
+pick -3.545 -2.75
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 12B
+setwindow pcb
+pick -3.19 -2.75
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 13
+rotate
+iangle 90
+setwindow pcb
+pick -2.75 -3.545
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 13B
+rotate
+iangle -90
+setwindow pcb
+pick -2.75 -3.19
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 14
+rotate
+iangle 90
+setwindow pcb
+pick -2.25 -3.545
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 14B
+rotate
+iangle -90
+setwindow pcb
+pick -2.25 -3.19
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 15
+rotate
+iangle 90
+setwindow pcb
+pick -1.75 -3.545
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 15B
+rotate
+iangle -90
+setwindow pcb
+pick -1.75 -3.19
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 16
+rotate
+iangle 90
+setwindow pcb
+pick -1.25 -3.545
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 16B
+rotate
+iangle -90
+setwindow pcb
+pick -1.25 -3.19
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 17
+rotate
+iangle 90
+setwindow pcb
+pick -0.75 -3.545
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 17B
+rotate
+iangle -90
+setwindow pcb
+pick -0.75 -3.19
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 18
+rotate
+iangle 90
+setwindow pcb
+pick -0.25 -3.545
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 18B
+rotate
+iangle -90
+setwindow pcb
+pick -0.25 -3.19
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 19
+rotate
+iangle 90
+setwindow pcb
+pick 0.25 -3.545
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 19B
+rotate
+iangle -90
+setwindow pcb
+pick 0.25 -3.19
+setwindow Form.mini
+FORM mini next_pin_number 1B
+setwindow pcb
+pick -3.19 2.75
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 2
+setwindow pcb
+pick -3.545 2.25
+setwindow Form.mini
+FORM mini next_pin_number 20
+rotate
+iangle 90
+setwindow pcb
+pick 0.75 -3.545
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 20B
+rotate
+iangle -90
+setwindow pcb
+pick 0.75 -3.19
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 21
+rotate
+iangle 90
+setwindow pcb
+pick 1.25 -3.545
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 21B
+rotate
+iangle -90
+setwindow pcb
+pick 1.25 -3.19
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 22
+rotate
+iangle 90
+setwindow pcb
+pick 1.75 -3.545
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 22B
+rotate
+iangle -90
+setwindow pcb
+pick 1.75 -3.19
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 23
+rotate
+iangle 90
+setwindow pcb
+pick 2.25 -3.545
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 23B
+rotate
+iangle -90
+setwindow pcb
+pick 2.25 -3.19
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 24
+rotate
+iangle 90
+setwindow pcb
+pick 2.75 -3.545
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 24B
+rotate
+iangle -90
+setwindow pcb
+pick 2.75 -3.19
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 25
+setwindow pcb
+pick 3.545 -2.75
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 25B
+setwindow pcb
+pick 3.19 -2.75
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 26
+setwindow pcb
+pick 3.545 -2.25
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 26B
+setwindow pcb
+pick 3.19 -2.25
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 27
+setwindow pcb
+pick 3.545 -1.75
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 27B
+setwindow pcb
+pick 3.19 -1.75
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 28
+setwindow pcb
+pick 3.545 -1.25
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 28B
+setwindow pcb
+pick 3.19 -1.25
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 29
+setwindow pcb
+pick 3.545 -0.75
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 29B
+setwindow pcb
+pick 3.19 -0.75
+setwindow Form.mini
+FORM mini next_pin_number 2B
+setwindow pcb
+pick -3.19 2.25
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 3
+setwindow pcb
+pick -3.545 1.75
+setwindow Form.mini
+FORM mini next_pin_number 30
+setwindow pcb
+pick 3.545 -0.25
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 30B
+setwindow pcb
+pick 3.19 -0.25
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 31
+setwindow pcb
+pick 3.545 0.25
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 31B
+setwindow pcb
+pick 3.19 0.25
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 32
+setwindow pcb
+pick 3.545 0.75
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 32B
+setwindow pcb
+pick 3.19 0.75
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 33
+setwindow pcb
+pick 3.545 1.25
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 33B
+setwindow pcb
+pick 3.19 1.25
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 34
+setwindow pcb
+pick 3.545 1.75
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 34B
+setwindow pcb
+pick 3.19 1.75
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 35
+setwindow pcb
+pick 3.545 2.25
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 35B
+setwindow pcb
+pick 3.19 2.25
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 36
+setwindow pcb
+pick 3.545 2.75
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 36B
+setwindow pcb
+pick 3.19 2.75
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 37
+rotate
+iangle 90
+setwindow pcb
+pick 2.75 3.545
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 37B
+rotate
+iangle -90
+setwindow pcb
+pick 2.75 3.19
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 38
+rotate
+iangle 90
+setwindow pcb
+pick 2.25 3.545
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 38B
+rotate
+iangle -90
+setwindow pcb
+pick 2.25 3.19
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 39
+rotate
+iangle 90
+setwindow pcb
+pick 1.75 3.545
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 39B
+rotate
+iangle -90
+setwindow pcb
+pick 1.75 3.19
+setwindow Form.mini
+FORM mini next_pin_number 3B
+setwindow pcb
+pick -3.19 1.75
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 4
+setwindow pcb
+pick -3.545 1.25
+setwindow Form.mini
+FORM mini next_pin_number 40
+rotate
+iangle 90
+setwindow pcb
+pick 1.25 3.545
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 40B
+rotate
+iangle -90
+setwindow pcb
+pick 1.25 3.19
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 41
+rotate
+iangle 90
+setwindow pcb
+pick 0.75 3.545
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 41B
+rotate
+iangle -90
+setwindow pcb
+pick 0.75 3.19
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 42
+rotate
+iangle 90
+setwindow pcb
+pick 0.25 3.545
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 42B
+rotate
+iangle -90
+setwindow pcb
+pick 0.25 3.19
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 43
+rotate
+iangle 90
+setwindow pcb
+pick -0.25 3.545
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 43B
+rotate
+iangle -90
+setwindow pcb
+pick -0.25 3.19
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 44
+rotate
+iangle 90
+setwindow pcb
+pick -0.75 3.545
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 44B
+rotate
+iangle -90
+setwindow pcb
+pick -0.75 3.19
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 45
+rotate
+iangle 90
+setwindow pcb
+pick -1.25 3.545
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 45B
+rotate
+iangle -90
+setwindow pcb
+pick -1.25 3.19
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 46
+rotate
+iangle 90
+setwindow pcb
+pick -1.75 3.545
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 46B
+rotate
+iangle -90
+setwindow pcb
+pick -1.75 3.19
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 47
+rotate
+iangle 90
+setwindow pcb
+pick -2.25 3.545
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 47B
+rotate
+iangle -90
+setwindow pcb
+pick -2.25 3.19
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 48
+rotate
+iangle 90
+setwindow pcb
+pick -2.75 3.545
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 48B
+rotate
+iangle -90
+setwindow pcb
+pick -2.75 3.19
+setwindow Form.mini
+FORM mini next_pin_number 4B
+setwindow pcb
+pick -3.19 1.25
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 5
+setwindow pcb
+pick -3.545 0.75
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 5B
+setwindow pcb
+pick -3.19 0.75
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 6
+setwindow pcb
+pick -3.545 0.25
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 6B
+setwindow pcb
+pick -3.19 0.25
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 7
+setwindow pcb
+pick -3.545 -0.25
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 7B
+setwindow pcb
+pick -3.19 -0.25
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 8
+setwindow pcb
+pick -3.545 -0.75
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 8B
+setwindow pcb
+pick -3.19 -0.75
+setwindow Form.mini
+FORM mini pad_name s_r71_28_m71_28_p71_28
+FORM mini next_pin_number 9
+setwindow pcb
+pick -3.545 -1.25
+setwindow Form.mini
+FORM mini pad_name s_r28_28_d10000_m28_28_p28_28
+FORM mini next_pin_number 9B
+setwindow pcb
+pick -3.19 -1.25
+setwindow Form.mini
+FORM mini pad_name t_n30_80_m80
+FORM mini next_pin_number P10
+setwindow pcb
+pick -1.5 -0.5
+setwindow Form.mini
+FORM mini next_pin_number P11
+setwindow pcb
+pick -0.5 -0.5
+setwindow Form.mini
+FORM mini next_pin_number P12
+setwindow pcb
+pick 0.5 -0.5
+setwindow Form.mini
+FORM mini next_pin_number P13
+setwindow pcb
+pick 1.5 -0.5
+setwindow Form.mini
+FORM mini next_pin_number P14
+setwindow pcb
+pick -1.5 -1.5
+setwindow Form.mini
+FORM mini next_pin_number P15
+setwindow pcb
+pick -0.5 -1.5
+setwindow Form.mini
+FORM mini next_pin_number P16
+setwindow pcb
+pick 0.5 -1.5
+setwindow Form.mini
+FORM mini next_pin_number P17
+setwindow pcb
+pick 1.5 -1.5
+setwindow Form.mini
+FORM mini next_pin_number P2
+setwindow pcb
+pick -1.5 1.5
+setwindow Form.mini
+FORM mini next_pin_number P3
+setwindow pcb
+pick -0.5 1.5
+setwindow Form.mini
+FORM mini next_pin_number P4
+setwindow pcb
+pick 0.5 1.5
+setwindow Form.mini
+FORM mini next_pin_number P5
+setwindow pcb
+pick 1.5 1.5
+setwindow Form.mini
+FORM mini next_pin_number P6
+setwindow pcb
+pick -1.5 0.5
+setwindow Form.mini
+FORM mini next_pin_number P7
+setwindow pcb
+pick -0.5 0.5
+setwindow Form.mini
+FORM mini next_pin_number P8
+setwindow pcb
+pick 0.5 0.5
+setwindow Form.mini
+FORM mini next_pin_number P9
+setwindow pcb
+pick 1.5 0.5
+setwindow Form.mini
+FORM mini pad_name s_r409_409_m409_409_p409_409
+FORM mini next_pin_number QFN_GND
+setwindow pcb
+pick 0 0
+done
+
+# Shapes
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass ASSEMBLY_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -3.5 3.5
+pick 3.5 3.5
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass ASSEMBLY_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 3.5 3.5
+pick 3.5 -3.5
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass ASSEMBLY_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 3.5 -3.5
+pick -3.5 -3.5
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass ASSEMBLY_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -3.5 -3.5
+pick -3.5 3.5
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -3.5 3
+pick -3.5 3.5
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -3.5 3.5
+pick -3 3.5
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 3 3.5
+pick 3.5 3.5
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 3.5 3.5
+pick 3.5 3
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 3.5 -3
+pick 3.5 -3.5
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 3.5 -3.5
+pick 3 -3.5
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -3 -3.5
+pick -3.5 -3.5
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -3.5 -3.5
+pick -3.5 -3
+done
+
+add circle
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -4 3.5
+pick -3.75 3.5
+done
+
+label refdes
+setwindow Form.mini
+FORM mini text_block 3
+FORM mini angle 0
+FORM mini mirror NO
+FORM mini text_justification Center
+FORM mini class REF DES
+FORM mini subclass SILKSCREEN_TOP
+setwindow pcb
+pick 0 0.75
+Text "REF"
+done
+setwindow pcb
+label refdes
+setwindow Form.mini
+FORM mini text_block 3
+FORM mini angle 0
+FORM mini mirror NO
+FORM mini text_justification Center
+FORM mini class REF DES
+FORM mini subclass ASSEMBLY_TOP
+setwindow pcb
+pick 0 0.75
+Text "REF"
+done
+setwindow pcb
+label device
+setwindow Form.mini
+FORM mini text_block 3
+FORM mini angle 0
+FORM mini mirror NO
+FORM mini text_justification Center
+FORM mini class DEVICE TYPE
+FORM mini subclass ASSEMBLY_TOP
+setwindow pcb
+pick 0 0.75
+Text "DEV"
+done
+setwindow pcb
+# Save the package
+setwindow pcb
+chg origin
+pick    0    0 
+save
+exit

@@ -1,0 +1,113 @@
+# Allegro Script
+version 17.2
+new
+newdrawfillin "ps_r28_28_d10000.dra" "Shape Symbol"
+setwindow pcb
+
+#--------------------------------------------
+# Drawing Parameters
+#--------------------------------------------
+prmed
+setwindow Form.prmedit
+FORM prmedit design
+FORM prmedit units Millimeter
+FORM prmedit accuracy 4
+FORM prmedit size other
+FORM prmedit x -7.5
+FORM prmedit y -7.5
+FORM prmedit width 15
+FORM prmedit height 15
+FORM prmedit x -7.5
+FORM prmedit y -7.5
+FORM prmedit done
+setwindow pcb
+
+#--------------------------------------------
+# Graphics
+#--------------------------------------------
+shape add
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass
+FORM mini dyns_fill_type Static solid
+FORM mini dyns_grid None
+FORM mini dyns_lock_mode Line
+setwindow pcb
+
+#--------------------------------------------
+# Bottom Line
+#--------------------------------------------
+pick 0.07 -0.14
+pick -0.07 -0.14
+
+#--------------------------------------------
+# Bottom Left Arc
+#--------------------------------------------
+setwindow Form.mini
+FORM mini dyns_lock_mode Arc
+setwindow pcb
+# End Point
+pick -0.14 -0.07
+# Mid Point
+pick -0.1195 -0.1195
+
+#--------------------------------------------
+# Left Line
+#--------------------------------------------
+pick -0.14 0.07
+
+#--------------------------------------------
+# Top Left Arc
+#--------------------------------------------
+setwindow Form.mini
+FORM mini dyns_lock_mode Arc
+setwindow pcb
+# End Point
+pick -0.07 0.14
+# Mid Point
+pick -0.1195 0.1195
+
+#--------------------------------------------
+# Top Line
+#--------------------------------------------
+pick 0.07 0.14
+
+#--------------------------------------------
+# Top Right Arc
+#--------------------------------------------
+setwindow Form.mini
+FORM mini dyns_lock_mode Arc
+setwindow pcb
+# End Point
+pick 0.14 0.07
+# Mid Point
+pick 0.1195 0.1195
+
+#--------------------------------------------
+# Right Line
+#--------------------------------------------
+pick 0.14 -0.07
+
+#--------------------------------------------
+# Bottom Right Arc
+#--------------------------------------------
+setwindow Form.mini
+FORM mini dyns_lock_mode Arc
+setwindow pcb
+# End Point
+pick 0.07 -0.14
+# Mid Point
+pick 0.1195 -0.1195
+
+#--------------------------------------------
+# Done Drawing
+#--------------------------------------------
+done
+
+save_as
+fillin "ps_r28_28_d10000.dra"
+create symbol
+fillin "ps_r28_28_d10000.ssm"
+fillin yes
+exit
+fillin yes

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : BAT_BU2032SM-BT-GTR.dra                       )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Jan 20 12:44:20 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/kchristensen/Downloads/BU2032SM-BT-GTR
+    Name      = bat_bu2032sm-bt-gtr.psm
+    User      = kchristensen
+    Machine   = DRDOOM
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

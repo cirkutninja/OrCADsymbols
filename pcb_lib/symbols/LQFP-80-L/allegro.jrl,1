@@ -1,0 +1,18 @@
+\t (00:00:00) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:00)     Journal start - Wed May 18 14:35:16 2016
+\t (00:00:00)         Host=DRDOOM User=kchristensen Pid=4864 CPUs=8
+\t (00:00:00) 
+\t (00:00:01) Opening existing design...
+\d (00:00:01) Database opened: C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols/LQFP-80-L/LQFP-80-L.dra
+\i (00:00:01) trapsize 1381
+\i (00:00:01) trapsize 1326
+\i (00:00:01) trapsize 1386
+\i (00:00:01) trapsize 1328
+\i (00:00:01) trapsize 1353
+\i (00:00:02) trapsize 1521
+\i (00:00:02) generaledit 
+\i (00:00:08) open 
+\i (00:01:41) fillin "menu_cancel"
+\i (00:01:41) generaledit 
+\i (00:01:42) exit 
+\t (00:01:42)     Journal end - Wed May 18 14:36:58 2016

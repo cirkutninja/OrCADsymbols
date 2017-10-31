@@ -1,0 +1,14 @@
+\t (00:00:10) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:10)     Journal start - Wed Aug 23 16:30:54 2017
+\t (00:00:10)         Host=DESKTOP-KNF4LPN User=Kevin Pid=13444 CPUs=4
+\t (00:00:10) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:10) 
+\d (00:00:10) Design opened: C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols/QFN50P700X700X100-49N/qfn48.dra
+\i (00:00:10) generaledit 
+\i (00:00:13) save_as 
+\i (00:00:31) fillin "C:\Cadence\SPB_17.2\share\pcb\pcb_lib\symbols\qfn48.dra"
+\i (00:00:31) cd "C:\Cadence\SPB_17.2\share\pcb\pcb_lib\symbols"
+\t (00:00:31) Symbol 'qfn48.psm' created.
+\i (00:00:31) generaledit 
+\i (00:00:32) exit 
+\t (00:00:32)     Journal end - Wed Aug 23 16:31:16 2017

@@ -1,0 +1,20 @@
+\t (00:00:00) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:00)     Journal start - Wed May 18 14:45:20 2016
+\t (00:00:00)         Host=DRDOOM User=kchristensen Pid=6736 CPUs=8
+\t (00:00:00) 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Database opened: C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols/LQFP-80-L/LQFP-80-L.dra
+\i (00:00:02) trapsize 1381
+\i (00:00:02) trapsize 1326
+\i (00:00:02) trapsize 1386
+\i (00:00:02) trapsize 1328
+\i (00:00:02) trapsize 1353
+\i (00:00:02) trapsize 1521
+\i (00:00:03) generaledit 
+\i (00:00:11) save_as 
+\i (00:00:25) fillin "C:\Cadence\SPB_16.6\share\pcb\pcb_lib\symbols\LQFP-80-L.dra"
+\i (00:00:25) cd "C:\Cadence\SPB_16.6\share\pcb\pcb_lib\symbols"
+\t (00:00:26) Symbol 'lqfp-80-l.psm' created.
+\i (00:00:26) generaledit 
+\i (00:00:38) exit 
+\t (00:00:39)     Journal end - Wed May 18 14:45:59 2016

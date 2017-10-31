@@ -1,0 +1,128 @@
+# Allegro script
+#   name: t_l60_80_160_m160_80_pad.scr
+#   copyright: This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#   version 17.2
+
+#-------------------------------------------------------------------------------
+# Launch new Padstack File
+#-------------------------------------------------------------------------------
+QtSignal MainWindow New triggered
+QtSignal fileNewDialog dirPath editingFinished "t_l60_80_160_m160_80"
+QtSignal fileNewDialog dataCombo activated "Thru Pin"
+QtSignal fileNewDialog OK clicked
+
+#-------------------------------------------------------------------------------
+# General Settings
+#-------------------------------------------------------------------------------
+QtSignal MainWindow Units CurrentIndexChanged Millimeter
+QtSignal MainWindow Units activated Millimeter
+QtSignal MainWindow DecimalPlaces CurrentIndexChanged 4
+QtSignal MainWindow DecimalPlaces activated 4
+
+#-------------------------------------------------------------------------------
+# Start Tab Settings
+#-------------------------------------------------------------------------------
+QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+# Select padstack usage
+QtSignal GuidedTabsParent PadstackTypes itemClicked "Thru Pin"
+QtSignal GuidedTabsParent PadstackTypes currentRowChanged 0
+QtSignal GuidedTabsParent PadstackTypes itemSelectionChanged "Thru Pin"
+QtSignal GuidedTabsParent PadstackTypes itemClicked "Thru Pin"
+# Select pad geometry
+QtSignal GuidedTabsParent NewPads currentRowChanged 0
+QtSignal GuidedTabsParent NewPads itemSelectionChanged Circle
+QtSignal GuidedTabsParent NewPads itemClicked Circle
+
+#-------------------------------------------------------------------------------
+# Drill Tab Settings
+#-------------------------------------------------------------------------------
+QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+# Drill hole
+QtSignal GuidedDrillTab HoleType activated Circle
+QtSignal GuidedDrillTab holeXSize editingFinished 0.6
+QtSignal GuidedDrillTab HolePlusTolerance editingFinished 0.0
+QtSignal GuidedDrillTab HoleMinusTolerance editingFinished 0.0
+QtSignal GuidedDrillTab Plating activated Plated
+
+#-------------------------------------------------------------------------------
+# Drill Symbol Tab Settings
+#-------------------------------------------------------------------------------
+QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
+# * Define a drill symbol *
+# Type of drill figure
+QtSignal GuidedDrillSymbol FigureType CurrentIndexChanged Cross
+QtSignal GuidedDrillSymbol FigureType activated Cross
+# Characters:
+# Drill figure width/height
+QtSignal GuidedDrillSymbol FigureWidth editingFinished 1.0000
+QtSignal GuidedDrillSymbol FigureHeight editingFinished 1.0000
+
+#-------------------------------------------------------------------------------
+# Drill Offset Tab Settings
+#-------------------------------------------------------------------------------
+QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+QtSignal GuidedDrillOffsetTab OffsetX editingFinished 0.0000
+QtSignal GuidedDrillOffsetTab OffsetY editingFinished 0.0000
+
+#-------------------------------------------------------------------------------
+# Design Layers Tab Settings
+#-------------------------------------------------------------------------------
+QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+# BEGIN LAYER
+QtSignal GuidedDesignLayersTab LayersTable itemChanged 0 "Layer Name" begin_layer
+QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Layer Name"
+QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Layer Name" 0 1
+# BEGIN LAYER : Regular Pad
+QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Regular Pad"
+QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" 0 2
+QtSignal GuidedDesignLayersTab PadShape CurrentIndexChanged Oblong
+QtSignal GuidedDesignLayersTab PadShape activated Oblong
+QtSignal GuidedDesignLayersTab PadWidth editingFinished 1.6
+QtSignal GuidedDesignLayersTab PadHeight editingFinished 0.8
+# DEFAULT INTERNAL
+QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 1 "Layer Name"
+QtSignal GuidedDesignLayersTab LayersTable cellClicked 1 "Layer Name" 1 1
+# DEFAULT INTERNAL : Regular Pad
+QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 1 "Regular Pad"
+QtSignal GuidedDesignLayersTab LayersTable cellClicked 1 "Regular Pad" 1 2
+QtSignal GuidedDesignLayersTab PadShape CurrentIndexChanged Oblong
+QtSignal GuidedDesignLayersTab PadShape activated Oblong
+QtSignal GuidedDesignLayersTab PadWidth editingFinished 1.6
+QtSignal GuidedDesignLayersTab PadHeight editingFinished 0.8
+# END LAYER
+QtSignal GuidedDesignLayersTab LayersTable itemChanged 2 "Layer Name" end_layer
+QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 2 "Layer Name"
+QtSignal GuidedDesignLayersTab LayersTable cellClicked 2 "Layer Name" 2 1
+# END LAYER : Regular Pad
+QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 2 "Regular Pad"
+QtSignal GuidedDesignLayersTab LayersTable cellClicked 2 "Regular Pad" 2 2
+QtSignal GuidedDesignLayersTab PadShape CurrentIndexChanged Oblong
+QtSignal GuidedDesignLayersTab PadShape activated Oblong
+QtSignal GuidedDesignLayersTab PadWidth editingFinished 1.6
+QtSignal GuidedDesignLayersTab PadHeight editingFinished 0.8
+
+#-------------------------------------------------------------------------------
+# Mask Layers Tab Settings
+#-------------------------------------------------------------------------------
+QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+# SOLDERMASK_TOP
+QtSignal GuidedMaskLayersTab LayersTable cellClicked 0 "Layer Name" 0 0
+QtSignal GuidedMaskLayersTab LayersTable cellClicked 0 Pad None 0 1
+QtSignal GuidedMaskLayersTab PadShape CurrentIndexChanged Oblong
+QtSignal GuidedMaskLayersTab PadShape activated Oblong
+QtSignal GuidedMaskLayersTab PadWidth editingFinished 1.6
+QtSignal GuidedMaskLayersTab PadHeight editingFinished 0.8
+# SOLDERMASK_BOTTOM
+QtSignal GuidedMaskLayersTab LayersTable cellClicked 1 "Layer Name" 1 0
+QtSignal GuidedMaskLayersTab LayersTable cellClicked 1 Pad None 1 1
+QtSignal GuidedMaskLayersTab PadShape CurrentIndexChanged Oblong
+QtSignal GuidedMaskLayersTab PadShape activated Oblong
+QtSignal GuidedMaskLayersTab PadWidth editingFinished 1.6
+QtSignal GuidedMaskLayersTab PadHeight editingFinished 0.8
+
+#-------------------------------------------------------------------------------
+# Check, Save, and Exit Commands
+#-------------------------------------------------------------------------------
+QtSignal MainWindow Check triggered
+QtSignal MainWindow Save triggered
+QtSignal MainWindow Exit triggered

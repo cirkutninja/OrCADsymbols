@@ -1,0 +1,603 @@
+# Allegro script
+#   name: BAT_BU2032SM-BT-GTR_pkg.scr
+#   copyright: This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+version 17.2
+
+setwindow pcb
+
+new
+newdrawfillin "BAT_BU2032SM-BT-GTR.dra" "Package Symbol"
+
+# UI Element Settings
+# setwindow Form.vf_vis
+# FORM vf_vis 1 all_colorvisible YES
+# FORM vf_vis 2 all_colorvisible YES
+setwindow pcb
+
+Color
+setwindow Form.cvf_main
+FORM cvf_main class_list Components
+FORM cvf_main all_visible1 YES
+FORM cvf_main all_visible2 YES
+FORM cvf_main all_visible3 YES
+FORM cvf_main class_list Geometry
+FORM cvf_main all_visible5 YES
+FORM cvf_main package_geometry/pin_number/visible NO
+FORM cvf_main class_list Stack-Up
+FORM cvf_main all_visible1 YES
+FORM cvf_main ok
+
+# Drawing Parameters
+generaledit
+prmed
+setwindow Form.prmedit
+FORM prmedit design
+FORM prmedit units Millimeter
+FORM prmedit accuracy 4
+FORM prmedit size other
+FORM prmedit width 278
+FORM prmedit height 142
+FORM prmedit Apply
+FORM prmedit x -105.5
+FORM prmedit y -54.5
+FORM prmedit done
+setwindow pcb
+chg origin
+pick   0   0 
+
+# Pins
+add pin
+setwindow Form.mini
+FORM mini pad_name s_r320_420_m340_440_p320_420
+FORM mini next_pin_number 1
+FORM mini pintype_mechanical NO
+setwindow pcb
+pick -14.65 0
+setwindow Form.mini
+FORM mini next_pin_number 2
+setwindow pcb
+pick 14.65 0
+setwindow Form.mini
+FORM mini pad_name s_r1100_700_m1120_720_p1100_700
+FORM mini next_pin_number 3
+setwindow pcb
+pick 0 0
+done
+
+# Shapes
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -14.3 2.4
+pick -14.3 3.5
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -14.3 3.5
+pick -10.65 3.5
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -14.3 -2.4
+pick -14.3 -3.5
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -14.3 -3.5
+pick -10.65 -3.5
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 10.65 3.5
+pick 14.3 3.5
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 14.3 3.5
+pick 14.3 2.4
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 10.65 -3.5
+pick 14.3 -3.5
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 14.3 -3.5
+pick 14.3 -2.4
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 10.65 -3.5
+pick 10.469 -3.99408
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 10.469 -3.99408
+pick 10.1742 -4.69126
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 10.1742 -4.69126
+pick 10.0471 -4.95351
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 10.0471 -4.95351
+pick 9.85958 -5.31877
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 9.85958 -5.31877
+pick 9.66997 -5.65694
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 9.66997 -5.65694
+pick 9.44127 -6.0342
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 9.44127 -6.0342
+pick 9.24189 -6.32545
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 9.24189 -6.32545
+pick 9.00623 -6.66061
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 9.00623 -6.66061
+pick 8.64462 -7.12159
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 8.64462 -7.12159
+pick 8.30363 -7.51783
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 8.30363 -7.51783
+pick 7.85404 -7.99282
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -10.65 -3.5
+pick -10.4 -4.15
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -10.4 -4.15
+pick -10.1 -4.85
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -10.1 -4.85
+pick -9.9 -5.25
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -9.9 -5.25
+pick -9.62033 -5.73864
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -9.62033 -5.73864
+pick -9.22367 -6.35711
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -9.22367 -6.35711
+pick -8.7 -7.05
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -8.7 -7.05
+pick -8.3449 -7.47343
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -8.3449 -7.47343
+pick -7.85404 -7.99087
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -10.65 3.5
+pick -10.4577 4.0339
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -10.4577 4.0339
+pick -10.0424 4.96605
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -10.0424 4.96605
+pick -9.68598 5.6251
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -9.68598 5.6251
+pick -9.34744 6.18081
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -9.34744 6.18081
+pick -8.95156 6.73009
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -8.95156 6.73009
+pick -8.52665 7.27679
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -8.52665 7.27679
+pick -8.06433 7.77716
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -8.06433 7.77716
+pick -7.84135 7.98325
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 10.65 3.5
+pick 10.5 3.9
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 10.5 3.9
+pick 10.2898 4.44203
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 10.2898 4.44203
+pick 10.0471 4.96165
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 10.0471 4.96165
+pick 9.67406 5.65337
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 9.67406 5.65337
+pick 9.17441 6.42513
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 9.17441 6.42513
+pick 8.73574 7.01158
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 8.73574 7.01158
+pick 8.21418 7.61459
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick 8.21418 7.61459
+pick 7.8678 7.97336
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -7.85 8
+pick 7.85 8
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.127
+setwindow pcb
+pick -7.85 -8
+pick 7.85 -8
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.05
+setwindow pcb
+pick -16.75 8.25
+pick 16.75 8.25
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.05
+setwindow pcb
+pick 16.75 8.25
+pick 16.75 -8.25
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.05
+setwindow pcb
+pick 16.75 -8.25
+pick -16.75 -8.25
+done
+
+add line
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.05
+setwindow pcb
+pick -16.75 -8.25
+pick -16.75 8.25
+done
+
+label refdes
+setwindow Form.mini
+FORM mini text_block 3
+FORM mini angle 0
+FORM mini mirror NO
+FORM mini text_justification Center
+FORM mini class REF DES
+FORM mini subclass SILKSCREEN_TOP
+setwindow pcb
+pick 0 0.75
+Text "REF"
+done
+setwindow pcb
+label refdes
+setwindow Form.mini
+FORM mini text_block 3
+FORM mini angle 0
+FORM mini mirror NO
+FORM mini text_justification Center
+FORM mini class REF DES
+FORM mini subclass ASSEMBLY_TOP
+setwindow pcb
+pick 0 0.75
+Text "REF"
+done
+setwindow pcb
+label device
+setwindow Form.mini
+FORM mini text_block 3
+FORM mini angle 0
+FORM mini mirror NO
+FORM mini text_justification Center
+FORM mini class DEVICE TYPE
+FORM mini subclass SILKSCREEN_TOP
+setwindow pcb
+pick 0 0.75
+Text "DEV"
+done
+setwindow pcb
+# Save the package
+setwindow pcb
+chg origin
+pick    0    0 
+save
+exit

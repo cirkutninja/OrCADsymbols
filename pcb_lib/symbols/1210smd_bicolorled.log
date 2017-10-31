@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : 1210smd_bicolorLED.dra                        )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Tue Aug 08 15:01:27 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols
+    Name      = 1210smd_bicolorled.psm
+    User      = Kevin
+    Machine   = DESKTOP-KNF4LPN
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

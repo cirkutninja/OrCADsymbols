@@ -1,0 +1,268 @@
+\t (00:00:22) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:22)     Journal start - Fri Aug 25 12:33:10 2017
+\t (00:00:22)         Host=DESKTOP-KNF4LPN User=Kevin Pid=13172 CPUs=4
+\t (00:00:22) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:22) 
+\d (00:00:22) Design opened: C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols/2mmheader_10.dra
+\i (00:00:22) generaledit 
+\i (00:00:24) save_as 
+\i (00:00:30) fillin "2mmheader_8.dra"
+\t (00:00:30) Symbol '2mmheader_8.psm' created.
+\i (00:00:30) generaledit 
+\i (00:00:31) pick grid 12.1382 -0.0256
+\t (00:00:31) last pick:  12.1000 0.0000
+\i (00:00:32) delete 
+\i (00:00:32) generaledit 
+\i (00:00:33) pick grid 13.6835 0.1189
+\t (00:00:33) last pick:  13.7000 0.1000
+\i (00:00:33) delete 
+\i (00:00:33) generaledit 
+\i (00:00:35) roam x 96 
+\i (00:00:35) roam x 96
+\i (00:00:35) roam x 96 
+\i (00:00:35) roam x 96
+\i (00:00:35) roam x 96 
+\i (00:00:35) roam x 96
+\i (00:00:36) zoom in 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom in 13.4771 0.4222
+\i (00:00:36) trapsize 361
+\i (00:00:38) add line 
+\i (00:00:45) setwindow form.mini
+\i (00:00:45) FORM mini subclass ASSEMBLY_TOP 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) pick grid 10.1048 0.8988
+\t (00:00:48) last pick:  10.1000 0.9000
+\i (00:00:50) pick grid 10.8920 0.8555
+\t (00:00:50) last pick:  10.9000 0.9000
+\i (00:00:52) pick grid 10.8631 -0.8559
+\t (00:00:52) last pick:  10.9000 -0.9000
+\i (00:00:53) pick grid 6.7470 -0.9354
+\t (00:00:53) last pick:  6.7000 -0.9000
+\t (00:00:53) last pick:  6.8580 -0.8890
+\t (00:00:53) Merged with existing line. Start next line.
+\i (00:00:54) prepopup 6.6603 -0.8704
+\i (00:00:54) done 
+\i (00:00:54) generaledit 
+\i (00:00:56) add line 
+\i (00:00:59) setwindow form.mini
+\i (00:00:59) FORM mini subclass SILKSCREEN_TOP 
+\i (00:01:01) setwindow pcb
+\i (00:01:01) pick grid 10.1337 0.8988
+\t (00:01:01) last pick:  10.1000 0.9000
+\i (00:01:02) pick grid 10.9281 0.8555
+\t (00:01:02) last pick:  10.9000 0.9000
+\i (00:01:04) pick grid 10.8703 -0.7548
+\t (00:01:04) last pick:  10.9000 -0.8000
+\i (00:01:07) pick grid 10.9497 -0.9498
+\t (00:01:07) last pick:  10.9000 -0.9000
+\i (00:01:10) pick grid 6.9492 -0.8559
+\t (00:01:10) last pick:  6.9000 -0.9000
+\t (00:01:10) last pick:  6.8690 -0.9000
+\i (00:01:11) pick grid 6.6459 -0.9281
+\t (00:01:11) last pick:  6.6000 -0.9000
+\t (00:01:11) last pick:  6.8580 -0.8890
+\i (00:01:11) prepopup 6.5665 -0.8704
+\i (00:01:12) done 
+\i (00:01:12) generaledit 
+\i (00:01:13) pick grid 12.7478 0.9349
+\t (00:01:13) last pick:  12.7000 0.9000
+\i (00:01:14) delete 
+\i (00:01:14) generaledit 
+\i (00:01:15) zoom out 1 
+\i (00:01:15) setwindow pcb
+\i (00:01:15) zoom out 12.7478 0.9349
+\i (00:01:15) trapsize 722
+\i (00:01:16) pick grid 12.0257 -0.9137
+\t (00:01:16) last pick:  12.0000 -0.9000
+\i (00:01:16) delete 
+\i (00:01:16) generaledit 
+\i (00:01:17) pick grid 15.2897 0.1262
+\t (00:01:17) last pick:  15.3000 0.1000
+\i (00:01:18) delete 
+\i (00:01:18) generaledit 
+\i (00:01:18) pick grid 14.8131 0.8483
+\t (00:01:18) last pick:  14.8000 0.8000
+\i (00:01:18) delete 
+\i (00:01:19) generaledit 
+\i (00:01:19) pick grid 15.1164 0.3717
+\t (00:01:19) last pick:  15.1000 0.4000
+\i (00:01:19) delete 
+\i (00:01:20) generaledit 
+\i (00:01:20) pick grid 13.9032 -1.0148
+\t (00:01:20) last pick:  13.9000 -1.0000
+\i (00:01:20) delete 
+\i (00:01:20) generaledit 
+\i (00:01:21) pick grid 15.2608 0.8772
+\t (00:01:21) last pick:  15.3000 0.9000
+\i (00:01:22) delete 
+\i (00:01:22) generaledit 
+\i (00:01:23) pick grid 14.7120 -0.0616
+\t (00:01:23) last pick:  14.7000 -0.1000
+\i (00:01:23) delete 
+\i (00:01:23) generaledit 
+\i (00:01:23) pick grid 14.7409 0.0395
+\t (00:01:23) last pick:  14.7000 0.0000
+\i (00:01:24) delete 
+\i (00:01:24) generaledit 
+\i (00:01:24) pick grid 15.2463 1.0072
+\t (00:01:24) last pick:  15.2000 1.0000
+\i (00:01:25) delete 
+\i (00:01:25) generaledit 
+\i (00:01:27) add line 
+\i (00:01:27) roam x -96 
+\i (00:01:27) roam x -96
+\i (00:01:27) roam x -96 
+\i (00:01:27) roam x -96
+\i (00:01:28) roam x -96 
+\i (00:01:28) roam x -96
+\i (00:01:28) roam x -96 
+\i (00:01:28) roam x -96
+\i (00:01:28) roam x -96 
+\i (00:01:28) roam x -96
+\i (00:01:29) pick grid -4.8936 0.9350
+\t (00:01:29) last pick:  -4.9000 0.9000
+\t (00:01:29) last pick:  -4.9022 0.8890
+\i (00:01:31) pick grid 10.9208 0.8628
+\t (00:01:31) last pick:  10.9000 0.9000
+\i (00:01:32) prepopup 11.1230 1.7004
+\i (00:01:33) done 
+\i (00:01:33) generaledit 
+\i (00:01:35) add line 
+\i (00:01:37) setwindow form.mini
+\i (00:01:37) FORM mini subclass ASSEMBLY_TOP 
+\i (00:01:38) setwindow pcb
+\i (00:01:38) pick grid 10.8919 0.9205
+\t (00:01:38) last pick:  10.9000 0.9000
+\i (00:01:39) pick grid 6.2270 0.8772
+\t (00:01:39) last pick:  6.2000 0.9000
+\i (00:01:40) prepopup 6.1548 0.8772
+\i (00:01:40) done 
+\i (00:01:40) generaledit 
+\i (00:01:41) prepopup 6.5159 3.1158
+\i (00:01:42) pick grid 5.2450 3.1880
+\t (00:01:42) last pick:  5.2000 3.2000
+\i (00:01:44) save 
+\i (00:01:45) fillin yes 
+\t (00:01:46) Symbol '2mmheader_8.psm' created.
+\i (00:01:46) generaledit 
+\i (00:01:48) add rect 
+\i (00:01:51) setwindow form.mini
+\i (00:01:51) FORM mini subclass PLACE_BOUND_TOP 
+\i (00:01:52) setwindow pcb
+\i (00:01:52) zoom in 1 
+\i (00:01:52) setwindow pcb
+\i (00:01:52) zoom in -4.9514 -0.1627
+\i (00:01:52) trapsize 361
+\i (00:01:54) pick grid -4.7059 0.7183
+\t (00:01:54) last pick:  -4.7000 0.7000
+\i (00:01:54) roam x 96 
+\i (00:01:54) roam x 96
+\i (00:01:54) roam x 96 
+\i (00:01:54) roam x 96
+\i (00:01:55) roam x 96 
+\i (00:01:55) roam x 96
+\i (00:01:55) roam x 96 
+\i (00:01:55) roam x 96
+\i (00:01:55) roam x 96 
+\i (00:01:55) roam x 96
+\i (00:01:55) roam x 96 
+\i (00:01:55) roam x 96
+\i (00:01:56) roam x 96 
+\i (00:01:56) roam x 96
+\i (00:01:56) roam x 96 
+\i (00:01:56) roam x 96
+\i (00:01:56) roam x 96 
+\i (00:01:56) roam x 96
+\i (00:01:57) roam x 96 
+\i (00:01:57) roam x 96
+\i (00:01:57) roam x 96 
+\i (00:01:57) roam x 96
+\i (00:01:57) roam x 96 
+\i (00:01:57) roam x 96
+\i (00:01:59) pick grid 10.6825 -0.6537
+\t (00:01:59) last pick:  10.7000 -0.7000
+\i (00:02:01) add rect 
+\i (00:02:05) setwindow form.mini
+\i (00:02:05) FORM mini subclass PLACE_BOUND_BOTTOM 
+\i (00:02:06) setwindow pcb
+\i (00:02:06) pick grid 10.7041 0.7111
+\t (00:02:06) last pick:  10.7000 0.7000
+\i (00:02:07) roam x -96 
+\i (00:02:07) roam x -96
+\i (00:02:07) roam x -96 
+\i (00:02:07) roam x -96
+\i (00:02:08) roam x -96 
+\i (00:02:08) roam x -96
+\i (00:02:08) roam x -96 
+\i (00:02:08) roam x -96
+\i (00:02:08) roam x -96 
+\i (00:02:08) roam x -96
+\i (00:02:08) roam x -96 
+\i (00:02:08) roam x -96
+\i (00:02:08) roam x -96 
+\i (00:02:08) roam x -96
+\i (00:02:08) roam x -96 
+\i (00:02:08) roam x -96
+\i (00:02:08) roam x -96 
+\i (00:02:08) roam x -96
+\i (00:02:08) roam x -96 
+\i (00:02:08) roam x -96
+\i (00:02:08) roam x -96 
+\i (00:02:08) roam x -96
+\i (00:02:08) roam x -96 
+\i (00:02:08) roam x -96
+\i (00:02:08) roam x -96 
+\i (00:02:08) roam x -96
+\i (00:02:08) roam x -96 
+\i (00:02:08) roam x -96
+\i (00:02:08) roam x -96 
+\i (00:02:08) roam x -96
+\i (00:02:08) roam x -96 
+\i (00:02:08) roam x -96
+\i (00:02:08) roam x -96 
+\i (00:02:08) roam x -96
+\i (00:02:10) pick grid -4.7276 -0.6537
+\t (00:02:10) last pick:  -4.7000 -0.7000
+\i (00:02:11) prepopup -5.9407 -0.6104
+\i (00:02:11) done 
+\i (00:02:11) generaledit 
+\i (00:02:13) save 
+\i (00:02:14) fillin yes 
+\t (00:02:14) Symbol '2mmheader_8.psm' created.
+\i (00:02:14) generaledit 
+\i (00:06:22) zoom in 1 
+\i (00:06:22) setwindow pcb
+\i (00:06:22) zoom in -2.9439 -1.0364
+\i (00:06:22) trapsize 181
+\i (00:06:23) zoom out 1 
+\i (00:06:23) setwindow pcb
+\i (00:06:23) zoom out -2.1640 -0.9100
+\i (00:06:23) trapsize 361
+\i (00:11:22) zoom out 1 
+\i (00:11:22) setwindow pcb
+\i (00:11:22) zoom out -4.4459 -0.6211
+\i (00:11:22) trapsize 722
+\i (00:11:24) pick grid -0.5319 -2.6865
+\t (00:11:24) last pick:  -0.5000 -2.7000
+\i (00:11:26) generaledit 
+\i (00:11:27) roam x 96 
+\i (00:11:27) roam x 96
+\i (00:11:27) roam x 96 
+\i (00:11:27) roam x 96
+\i (00:11:27) roam x 96 
+\i (00:11:27) roam x 96
+\i (00:11:27) roam x 96 
+\i (00:11:27) roam x 96
+\i (00:11:27) roam x 96 
+\i (00:11:27) roam x 96
+\i (00:11:28) roam x 96 
+\i (00:11:28) roam x 96
+\i (00:11:28) roam x 96 
+\i (00:11:28) roam x 96
+\e (00:11:39) Command not found: xdehilite
+\i (00:11:39) xname_flush 
+\i (00:11:39) done 
+\i (00:11:39) generaledit 
+\i (00:11:43) exit 
+\t (00:11:43)     Journal end - Fri Aug 25 12:44:31 2017

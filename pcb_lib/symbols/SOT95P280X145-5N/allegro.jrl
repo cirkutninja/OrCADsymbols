@@ -1,0 +1,102 @@
+\t (00:00:00) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:00)     Journal start - Mon Sep 19 14:32:17 2016
+\t (00:00:00)         Host=DRDOOM User=kchristensen Pid=5188 CPUs=8
+\t (00:00:00) 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Database opened: C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols/SOT95P280X145-5N/SOT95P280X145-5N.dra
+\i (00:00:02) trapsize 27966
+\i (00:00:02) trapsize 26853
+\i (00:00:02) trapsize 28075
+\i (00:00:02) trapsize 26887
+\i (00:00:02) trapsize 27399
+\i (00:00:02) trapsize 30799
+\i (00:00:02) generaledit 
+\i (00:00:04) zoom in 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom in 0.5077 -3.1882
+\i (00:00:04) trapsize 15399
+\i (00:00:05) zoom in 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom in 238.8909 102.4519
+\i (00:00:05) trapsize 7700
+\i (00:00:05) zoom out 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom out 120.1613 51.9418
+\i (00:00:05) trapsize 15399
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 46.3618 51.9417
+\i (00:00:06) trapsize 30799
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in 477.2741 208.0920
+\i (00:00:06) trapsize 15399
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out 42.6659 101.8359
+\i (00:00:07) trapsize 30799
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom in -3.1882 -3.1882
+\i (00:00:08) trapsize 15399
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom in -3.1882 -3.1882
+\i (00:00:08) trapsize 7700
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in -3.1881 -2.4182
+\i (00:00:09) trapsize 3850
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in -3.1111 -1.6482
+\i (00:00:09) trapsize 1925
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in -3.1111 -1.6481
+\i (00:00:10) trapsize 962
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in -1.9370 0.0843
+\i (00:00:10) trapsize 481
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in -1.9370 0.0844
+\i (00:00:11) trapsize 241
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out -1.9369 0.0844
+\i (00:00:11) trapsize 481
+\i (00:00:12) zoom in 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom in -1.9370 0.0844
+\i (00:00:12) trapsize 241
+\i (00:00:13) roam y -96 
+\i (00:00:13) roam y -96
+\i (00:00:13) roam y -96 
+\i (00:00:13) roam y -96
+\i (00:00:14) zoom out 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom out 1.6867 1.3787
+\i (00:00:14) trapsize 481
+\i (00:00:14) roam x 96 
+\i (00:00:14) roam x 96
+\i (00:00:15) roam y 96 
+\i (00:00:15) roam y 96
+\i (00:00:18) zoom in 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom in 1.4028 2.2690
+\i (00:00:18) trapsize 241
+\i (00:00:20) zoom out 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom out 1.4028 2.2691
+\i (00:00:20) trapsize 481
+\i (00:11:17) save_as 
+\i (00:11:22) fillin "menu_cancel"
+\i (00:11:22) generaledit 
+\i (00:12:22) open 
+\i (00:12:35) fillin "C:\Cadence\SPB_16.6\share\pcb\pcb_lib\symbols\SOT95P280X145-5N.dra"
+\i (00:12:35) cd "C:\Cadence\SPB_16.6\share\pcb\pcb_lib\symbols"
+\t (00:12:35) Opening existing design...
+\i (00:12:35) trapsize 30799
+\t (00:12:35)     Journal end - Mon Sep 19 14:44:52 2016

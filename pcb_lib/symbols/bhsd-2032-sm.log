@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : BHSD-2032-SM.dra                              )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Thu Jan 19 11:38:53 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/kchristensen/Downloads/BHSD-2032-SM (1)
+    Name      = bhsd-2032-sm.psm
+    User      = kchristensen
+    Machine   = DRDOOM
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

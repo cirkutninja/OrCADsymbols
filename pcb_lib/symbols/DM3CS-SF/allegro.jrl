@@ -1,0 +1,20 @@
+\t (00:00:04) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:04)     Journal start - Mon Nov 14 12:54:00 2016
+\t (00:00:04)         Host=DRDOOM User=kchristensen Pid=6384 CPUs=8
+\t (00:00:04) 
+\t (00:00:06) Opening existing design...
+\d (00:00:06) Database opened: C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols/DM3CS-SF/HRS_DM3CS-SF.dra
+\i (00:00:06) trapsize 1192
+\i (00:00:06) trapsize 1144
+\i (00:00:06) trapsize 1196
+\i (00:00:06) trapsize 1146
+\i (00:00:06) trapsize 1168
+\i (00:00:06) trapsize 1312
+\i (00:00:06) generaledit 
+\i (00:00:13) opencd 'W:/HardwareEngineering/2.4 Transmitters/Cricket/PCBrev_Alpha/PCBlayout/cricket_round_105.brd' 
+\t (00:00:13) Opening existing design...
+\i (00:00:14) trapsize 361
+\i (00:00:14) trapsize 353
+\i (00:00:14) trapsize 361
+\i (00:00:14) trapsize 361
+\t (00:00:14)     Journal end - Mon Nov 14 12:54:10 2016

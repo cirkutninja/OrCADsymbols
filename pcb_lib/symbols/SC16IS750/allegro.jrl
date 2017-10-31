@@ -1,0 +1,98 @@
+\t (00:00:31) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:31)     Journal start - Wed May 04 16:09:28 2016
+\t (00:00:31)         Host=DRDOOM User=kchristensen Pid=8796 CPUs=8
+\t (00:00:31) 
+\d (00:00:31) Database opened: C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols/SC16IS750/QFN-24.dra
+\i (00:00:31) generaledit 
+\i (00:00:36) zoom in 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom in 1.3392 1.5024
+\i (00:00:36) trapsize 314
+\i (00:00:38) zoom out 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom out -0.3304 1.5024
+\i (00:00:38) trapsize 628
+\i (00:00:40) pick grid 2.7327 1.5150
+\t (00:00:40) last pick:  2.5400  2.5400
+\i (00:00:41) delete 
+\i (00:00:41) generaledit 
+\i (00:00:42) pick grid 2.9210 1.3518
+\t (00:00:42) last pick:  2.5400  2.5400
+\i (00:00:42) delete 
+\i (00:00:42) generaledit 
+\i (00:00:43) pick grid 3.0465 1.5401
+\t (00:00:43) last pick:  2.5400  2.5400
+\i (00:00:43) delete 
+\i (00:00:43) generaledit 
+\i (00:00:44) zoom in 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom in 2.8582 1.1384
+\i (00:00:44) trapsize 314
+\i (00:00:45) pick grid 2.9649 1.1886
+\t (00:00:45) last pick:  2.5400  0.0000
+\i (00:00:46) prepopup 2.9649 1.1886
+\i (00:00:50) pop dyn_option_select @:@Delete 
+\i (00:00:50) delete 
+\i (00:00:50) generaledit 
+\i (00:00:50) pick grid 2.8896 1.1321
+\t (00:00:50) last pick:  2.5400  0.0000
+\i (00:00:51) delete 
+\i (00:00:51) generaledit 
+\i (00:00:51) pick grid 2.8080 1.3706
+\t (00:00:51) last pick:  2.5400  2.5400
+\i (00:00:52) delete 
+\i (00:00:52) generaledit 
+\i (00:00:52) pick grid 1.6280 2.3059
+\t (00:00:52) last pick:  2.5400  2.5400
+\i (00:00:53) delete 
+\i (00:00:53) generaledit 
+\i (00:00:53) pick grid 1.5652 2.4126
+\t (00:00:53) last pick:  2.5400  2.5400
+\i (00:00:53) delete 
+\i (00:00:53) generaledit 
+\i (00:00:54) pick grid 1.6029 2.6009
+\t (00:00:54) last pick:  2.5400  2.5400
+\i (00:00:54) delete 
+\i (00:00:54) generaledit 
+\i (00:00:55) pick grid 1.3392 2.5004
+\t (00:00:55) last pick:  2.5400  2.5400
+\i (00:00:55) delete 
+\i (00:00:55) generaledit 
+\i (00:00:56) pick grid 3.1407 3.6303
+\t (00:00:56) last pick:  2.5400  2.5400
+\i (00:00:56) delete 
+\i (00:00:56) generaledit 
+\i (00:00:57) pick grid 3.6491 3.5424
+\t (00:00:57) last pick:  2.5400  2.5400
+\i (00:00:57) delete 
+\i (00:00:57) generaledit 
+\i (00:00:58) pick grid 3.6867 3.4859
+\t (00:00:58) last pick:  2.5400  2.5400
+\i (00:00:58) delete 
+\i (00:00:58) generaledit 
+\i (00:00:59) pick grid 3.5675 3.4420
+\t (00:00:59) last pick:  2.5400  2.5400
+\i (00:00:59) delete 
+\i (00:00:59) generaledit 
+\i (00:00:59) pick grid 3.4922 3.3604
+\t (00:00:59) last pick:  2.5400  2.5400
+\i (00:00:59) delete 
+\i (00:00:59) generaledit 
+\i (00:01:00) zoom out 1 
+\i (00:01:00) setwindow pcb
+\i (00:01:00) zoom out 3.1720 2.3372
+\i (00:01:00) trapsize 628
+\i (00:01:07) roam x -96 
+\i (00:01:08) roam x -96 
+\i (00:01:08) roam x -96 
+\i (00:01:16) save 
+\i (00:01:17) fillin yes 
+\t (00:01:17) Symbol 'qfn-24.psm' created.
+\i (00:01:17) generaledit 
+\i (00:01:20) save_as 
+\i (00:01:25) fillin "C:\Cadence\SPB_16.6\share\pcb\pcb_lib\symbols\QFN-24.dra"
+\i (00:01:25) cd "C:\Cadence\SPB_16.6\share\pcb\pcb_lib\symbols"
+\t (00:01:25) Symbol 'qfn-24.psm' created.
+\i (00:01:25) generaledit 
+\i (00:04:50) exit 
+\t (00:04:50)     Journal end - Wed May 04 16:13:47 2016

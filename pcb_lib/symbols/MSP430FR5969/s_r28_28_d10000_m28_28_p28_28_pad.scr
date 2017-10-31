@@ -1,0 +1,82 @@
+# Padstack Editor script
+#   name: s_r28_28_d10000_m28_28_p28_28_pad.scr
+#   copyright: This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#   version 17.2
+
+#-------------------------------------------------------------------------------
+# Launch new Padstack File
+#-------------------------------------------------------------------------------
+QtSignal MainWindow New triggered
+QtSignal fileNewDialog dirPath editingFinished "s_r28_28_d10000_m28_28_p28_28"
+QtSignal fileNewDialog dataCombo activated "SMD Pin"
+QtSignal fileNewDialog OK clicked
+
+#-------------------------------------------------------------------------------
+# General Settings
+#-------------------------------------------------------------------------------
+QtSignal MainWindow Units CurrentIndexChanged Millimeter
+QtSignal MainWindow Units activated Millimeter
+QtSignal MainWindow DecimalPlaces CurrentIndexChanged 4
+QtSignal MainWindow DecimalPlaces activated 4
+
+#-------------------------------------------------------------------------------
+# Start Tab Settings
+#-------------------------------------------------------------------------------
+QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+# Select padstack usage
+QtSignal GuidedTabsParent PadstackTypes itemClicked "SMD Pin"
+QtSignal GuidedTabsParent PadstackTypes currentRowChanged 1
+QtSignal GuidedTabsParent PadstackTypes itemSelectionChanged "SMD Pin"
+QtSignal GuidedTabsParent PadstackTypes itemClicked "SMD Pin"
+# Select pad geometry
+QtSignal GuidedTabsParent NewPads currentRowChanged 4
+QtSignal GuidedTabsParent NewPads itemSelectionChanged "Rounded rectangle"
+QtSignal GuidedTabsParent NewPads itemClicked "Rounded rectangle"
+
+#-------------------------------------------------------------------------------
+# Design Layers Tab Settings
+#-------------------------------------------------------------------------------
+QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+# BEGIN LAYER
+QtSignal GuidedDesignLayersTab LayersTable itemChanged 0 "Layer Name" begin_layer
+QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Layer Name"
+QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Layer Name" 0 1
+# BEGIN LAYER : Regular Pad
+QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Regular Pad"
+QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" 0 2
+QtSignal GuidedDesignLayersTab PadShape CurrentIndexChanged "Shape symbol"
+QtSignal GuidedDesignLayersTab PadShape activated "Shape symbol"
+QtSignal GuidedDesignLayersTab PadShapeSymbolBrowse clicked
+QtSignal shapeSymbolBrowser SymbolsList selectionChanged ps_r28_28_d10000
+QtSignal shapeSymbolBrowser SymbolsList clicked ps_r28_28_d10000
+QtSignal shapeSymbolBrowser OK clicked
+
+#-------------------------------------------------------------------------------
+# Mask Layers Tab Settings
+#-------------------------------------------------------------------------------
+QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+# SOLDERMASK_TOP : Pad
+QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 0 Pad
+QtSignal GuidedMaskLayersTab LayersTable cellClicked 0 Pad None 0 1
+QtSignal GuidedMaskLayersTab PadShape CurrentIndexChanged "Shape symbol"
+QtSignal GuidedMaskLayersTab PadShape activated "Shape symbol"
+QtSignal GuidedMaskLayersTab PadShapeSymbolBrowse clicked
+QtSignal ShapeSymbolBrowser SymbolsList selectionChanged ps_r28_28_d10000
+QtSignal ShapeSymbolBrowser SymbolsList clicked ps_r28_28_d10000
+QtSignal ShapeSymbolBrowser OK clicked
+# PASTEMASK_TOP : Pad
+QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 Pad
+QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 Pad None 2 1
+QtSignal GuidedMaskLayersTab PadShape CurrentIndexChanged "Shape symbol"
+QtSignal GuidedMaskLayersTab PadShape activated "Shape symbol"
+QtSignal GuidedMaskLayersTab PadShapeSymbolBrowse clicked
+QtSignal ShapeSymbolBrowser SymbolsList selectionChanged ps_r28_28_d10000
+QtSignal ShapeSymbolBrowser SymbolsList clicked ps_r28_28_d10000
+QtSignal ShapeSymbolBrowser OK clicked
+
+#-------------------------------------------------------------------------------
+# Check, Save, and Exit Commands
+#-------------------------------------------------------------------------------
+QtSignal MainWindow Check triggered
+QtSignal MainWindow Save triggered
+QtSignal MainWindow Exit triggered

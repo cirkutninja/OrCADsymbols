@@ -1,0 +1,15 @@
+\t (00:00:04) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:04)     Journal start - Fri Nov 11 15:13:36 2016
+\t (00:00:04)         Host=DRDOOM User=kchristensen Pid=6452 CPUs=8
+\t (00:00:04) 
+\t (00:00:06) Opening existing design...
+\d (00:00:06) Database opened: C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols/DM3CS-SF/HRS_DM3CS-SF.dra
+\i (00:00:06) trapsize 1192
+\i (00:00:06) trapsize 1144
+\i (00:00:06) trapsize 1196
+\i (00:00:06) trapsize 1146
+\i (00:00:06) trapsize 1168
+\i (00:00:06) trapsize 1312
+\i (00:00:06) generaledit 
+\i (00:00:08) exit 
+\t (00:00:08)     Journal end - Fri Nov 11 15:13:39 2016

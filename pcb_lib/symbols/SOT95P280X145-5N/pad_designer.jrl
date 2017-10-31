@@ -1,0 +1,7 @@
+\t (00:00:00) pad_designer 16.6 P001 (v16-6-112A) Windows 32
+\t (00:00:00)     Journal start - Wed Oct 19 12:02:18 2016
+\t (00:00:00)         Host=DRDOOM User=kchristensen Pid=18080 CPUs=8
+\t (00:00:00) 
+\i (00:00:01) setwindow form.padedit
+\i (00:00:01) pse_exit
+\t (00:00:01)     Journal end - Wed Oct 19 12:02:19 2016
