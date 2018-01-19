@@ -1,0 +1,79 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : conn9.dra                                     )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Thu Aug 13 18:45:29 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+0 warnings, 0 errors detected, 0 errors could be fixed.
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : SOP50P490X110-11N.dra                         )
+(    Software Version : 16.6P003                                      )
+(    Date/Time        : Wed May 18 15:56:43 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+0 warnings, 0 errors detected, 0 errors  fixed.
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : SOP50P490X110-11N.dra                         )
+(    Software Version : 16.6P003                                      )
+(    Date/Time        : Wed May 18 15:56:52 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Regenerating DRC
+  Original DRC errors:   0
+  Updated DRC errors:    0
+  DRC elapsed time:      00:00:00
+
+0 warnings, 0 errors detected, 0 errors  fixed.
+
+Number of Xnets before update: 0        after update: 0
+Number of Diff Pairs before update: 0   after update: 0
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : SW_FSM4JSMAATR.dra                            )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Wed Aug 23 16:57:13 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Regenerating DRC
+  Original DRC errors:   0
+  Updated DRC errors:    0
+  DRC elapsed time:      00:00:00
+
+0 warnings, 0 errors detected, 0 errors  fixed.
+
+Number of Xnets before update: 0        after update: 0
+Number of Diff Pairs before update: 0   after update: 0
+
+Saved drawing C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols/SW_FSM4JSMAATR.dra.
+
+
+<<< Design Uprev Warnings >>>
+
+Wed Aug 23 16:57:13 2017				Page     1
+
+
+Performing DRC...
+No DRC errors detected.

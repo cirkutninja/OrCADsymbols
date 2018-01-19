@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : dip16_3.dra                                   )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Wed Jun 17 14:49:03 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols
+    Name      = dip16_3.psm
+    User      = kchristensen
+    Machine   = DRDOOM
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : BMIS202.dra                                   )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Wed May 04 23:29:36 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols
+    Name      = bmis202.psm
+    User      = kchristensen
+    Machine   = DRDOOM
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

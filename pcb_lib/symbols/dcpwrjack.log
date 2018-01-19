@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : DCpwrjack.dra                                 )
+(    Software Version : 16.5P002                                      )
+(    Date/Time        : Thu Jan 05 10:19:31 2012                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/SPB_16.5/share/pcb/pcb_lib/symbols
+    Name      = dcpwrjack.psm
+    User      = kchristensen
+    Machine   = KCHRISTENSEN-DT
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

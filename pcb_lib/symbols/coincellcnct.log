@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : coincellcnct.dra                              )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Mar 13 14:42:27 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = W:/HardwareEngineering/2.4 Transmitters/Cricket/PCBrev_Alpha/PCBlayout
+    Name      = coincellcnct.psm
+    User      = kchristensen
+    Machine   = KCHRISTENSEN-DT
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

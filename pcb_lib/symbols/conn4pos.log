@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : Conn4pos.dra                                  )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Tue Jan 10 10:45:22 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols
+    Name      = conn4pos.psm
+    User      = kchristensen
+    Machine   = DRDOOM
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+
